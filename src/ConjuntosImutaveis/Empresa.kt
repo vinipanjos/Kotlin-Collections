@@ -1,3 +1,5 @@
+package ConjuntosImutaveis
+
 fun main() {
     val vinicius = Funcionario("Vinicius", 1000.0, "CLT")
     val luciana = Funcionario("Luciana", 5000.0, "PJ")
@@ -43,7 +45,7 @@ fun main() {
 
 
 
-data class Funcionario(
+public data class Funcionario(
     val nome: String,
     val salario: Double,
     val tipoContratacao: String
